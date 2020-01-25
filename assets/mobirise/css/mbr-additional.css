@@ -2035,32 +2035,32 @@ section.lazy-placeholder:after {
   padding-bottom: 90px;
   background-image: url("../../../assets/images/perspective-clubhouse-01-1-510x263.jpg");
 }
-.cid-rOq9UVS9Ad {
-  padding-top: 15px;
-  padding-bottom: 0px;
+.cid-rOBudRVCs3 {
+  padding-top: 45px;
+  padding-bottom: 15px;
   background-color: #232323;
 }
-.cid-rOq9UVS9Ad .item {
+.cid-rOBudRVCs3 .item {
   padding-bottom: 2rem;
 }
-.cid-rOq9UVS9Ad .item-wrapper {
+.cid-rOBudRVCs3 .item-wrapper {
   height: 100%;
 }
-.cid-rOq9UVS9Ad .item-wrapper img {
+.cid-rOBudRVCs3 .item-wrapper img {
   height: 100%;
   object-fit: cover;
 }
-.cid-rOq9UVS9Ad .carousel-control,
-.cid-rOq9UVS9Ad .close {
+.cid-rOBudRVCs3 .carousel-control,
+.cid-rOBudRVCs3 .close {
   background: #1b1b1b;
 }
-.cid-rOq9UVS9Ad .carousel-control-prev {
+.cid-rOBudRVCs3 .carousel-control-prev {
   margin-left: 2.5rem;
 }
-.cid-rOq9UVS9Ad .carousel-control-next {
+.cid-rOBudRVCs3 .carousel-control-next {
   margin-right: 2.5rem;
 }
-.cid-rOq9UVS9Ad .close {
+.cid-rOBudRVCs3 .close {
   position: fixed;
   opacity: .5;
   font-size: 35px;
@@ -2082,15 +2082,15 @@ section.lazy-placeholder:after {
   transition: opacity .3s ease;
   font-family: 'MobiriseIcons';
 }
-.cid-rOq9UVS9Ad .close::before {
+.cid-rOBudRVCs3 .close::before {
   content: '\e91a';
 }
-.cid-rOq9UVS9Ad .close:hover {
+.cid-rOBudRVCs3 .close:hover {
   opacity: 1;
   background: #000;
   color: #fff;
 }
-.cid-rOq9UVS9Ad .carousel-control {
+.cid-rOBudRVCs3 .carousel-control {
   position: fixed;
   width: 70px;
   height: 70px;
@@ -2108,62 +2108,62 @@ section.lazy-placeholder:after {
   -o-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
-.cid-rOq9UVS9Ad .carousel-inner > .active {
+.cid-rOBudRVCs3 .carousel-inner > .active {
   display: block;
 }
-.cid-rOq9UVS9Ad .carousel-control.left {
+.cid-rOBudRVCs3 .carousel-control.left {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-rOq9UVS9Ad .carousel-control.right {
+.cid-rOBudRVCs3 .carousel-control.right {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-rOq9UVS9Ad .carousel-control .icon-next,
-.cid-rOq9UVS9Ad .carousel-control .icon-prev {
+.cid-rOBudRVCs3 .carousel-control .icon-next,
+.cid-rOBudRVCs3 .carousel-control .icon-prev {
   margin-top: -18px;
   font-size: 40px;
   line-height: 27px;
 }
-.cid-rOq9UVS9Ad .carousel-control:hover {
+.cid-rOBudRVCs3 .carousel-control:hover {
   background: #1b1b1b;
   color: #fff;
   opacity: 1;
 }
 @media (max-width: 768px) {
-  .cid-rOq9UVS9Ad .carousel-control,
-  .cid-rOq9UVS9Ad .carousel-indicators,
-  .cid-rOq9UVS9Ad .modal .close {
+  .cid-rOBudRVCs3 .carousel-control,
+  .cid-rOBudRVCs3 .carousel-indicators,
+  .cid-rOBudRVCs3 .modal .close {
     position: fixed;
   }
 }
 @media (max-width: 767px) {
-  .cid-rOq9UVS9Ad .mbr-slider .carousel-control {
+  .cid-rOBudRVCs3 .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
   }
-  .cid-rOq9UVS9Ad .mbr-slider > .container .carousel-control {
+  .cid-rOBudRVCs3 .mbr-slider > .container .carousel-control {
     margin-bottom: 0;
   }
 }
-.cid-rOq9UVS9Ad .carousel-indicators {
+.cid-rOBudRVCs3 .carousel-indicators {
   bottom: 0;
   margin-bottom: 3px;
 }
 @media (max-width: 991px) {
-  .cid-rOq9UVS9Ad .carousel-indicators {
+  .cid-rOBudRVCs3 .carousel-indicators {
     margin-bottom: 3.625rem !important;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
 @media (max-width: 767px) {
-  .cid-rOq9UVS9Ad .carousel-indicators {
+  .cid-rOBudRVCs3 .carousel-indicators {
     display: none;
   }
 }
-.cid-rOq9UVS9Ad .carousel-indicators .active,
-.cid-rOq9UVS9Ad .carousel-indicators li {
+.cid-rOBudRVCs3 .carousel-indicators .active,
+.cid-rOBudRVCs3 .carousel-indicators li {
   width: 7px;
   height: 7px;
   margin: 3px;
@@ -2171,62 +2171,62 @@ section.lazy-placeholder:after {
   opacity: .5;
   border: 4px solid #1b1b1b;
 }
-.cid-rOq9UVS9Ad .carousel-indicators .active {
+.cid-rOBudRVCs3 .carousel-indicators .active {
   background: #fff;
 }
-.cid-rOq9UVS9Ad .carousel-indicators li {
+.cid-rOBudRVCs3 .carousel-indicators li {
   max-width: 15px;
   max-height: 15px;
   border-radius: 50%;
 }
-.cid-rOq9UVS9Ad .modal {
+.cid-rOBudRVCs3 .modal {
   padding-left: 0 !important;
   position: fixed;
   overflow: hidden;
   padding-right: 0 !important;
 }
-.cid-rOq9UVS9Ad .modal-dialog {
+.cid-rOBudRVCs3 .modal-dialog {
   margin: 0 auto;
   max-width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.cid-rOq9UVS9Ad .modal-content {
+.cid-rOBudRVCs3 .modal-content {
   border-radius: 0;
   border: none;
   background: transparent;
 }
-.cid-rOq9UVS9Ad .modal-body {
+.cid-rOBudRVCs3 .modal-body {
   padding: 0;
   display: flex;
   align-items: center;
 }
-.cid-rOq9UVS9Ad .modal-body img {
+.cid-rOBudRVCs3 .modal-body img {
   width: 100%;
   object-fit: contain;
   max-height: calc(98.25vh);
   height: fit-content;
 }
-.cid-rOq9UVS9Ad .carousel {
+.cid-rOBudRVCs3 .carousel {
   width: 100%;
 }
-.cid-rOq9UVS9Ad .modal-backdrop.in {
+.cid-rOBudRVCs3 .modal-backdrop.in {
   opacity: .8;
 }
-.cid-rOq9UVS9Ad .modal.fade .modal-dialog {
+.cid-rOBudRVCs3 .modal.fade .modal-dialog {
   -webkit-transition: margin-top 0.3s ease-out;
   -moz-transition: margin-top 0.3s ease-out;
   -o-transition: margin-top 0.3s ease-out;
   transition: margin-top 0.3s ease-out;
 }
-.cid-rOq9UVS9Ad .modal.fade .modal-dialog,
-.cid-rOq9UVS9Ad .modal.in .modal-dialog {
+.cid-rOBudRVCs3 .modal.fade .modal-dialog,
+.cid-rOBudRVCs3 .modal.in .modal-dialog {
   -webkit-transform: none;
   -ms-transform: none;
   -o-transform: none;
   transform: none;
 }
-.cid-rOq9UVS9Ad H4 {
+.cid-rOBudRVCs3 H4 {
   color: #efefef;
 }
 .cid-rOivrtxnAf {
