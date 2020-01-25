@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "L-Plus",
-    "currentPage": "index.html",
+    "currentPage": "gallery.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1895,11 +1895,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rOBDspzIVG",
-          "_PHPplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": []
         },
         {
           "alias": false,
