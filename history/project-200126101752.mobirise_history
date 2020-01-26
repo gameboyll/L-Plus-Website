@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "L-Plus",
-    "currentPage": "gallery.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -57,9 +57,9 @@
     "imageResize": true,
     "favicon": false,
     "robotsSwitcher": true,
-    "sitemapSwitcher": true,
+    "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": "https://gameboyll.github.io/L-Plus-Website/",
+    "siteUrl": false,
     "cookiesAlert": false,
     "witsec-language": "th",
     "witsec-white-label": true,
@@ -67,9 +67,7 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "gdpr": false,
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@",
-    "noImageResize": false,
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-106058419-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-106058419-6');\n</script>"
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -77,10 +75,9 @@
         "main": true,
         "title": "L Plus | Landscape Design, Planning, Gardening, Care Taking | จัดสวน",
         "meta_descr": "L-Plus | Full Service Landscaping - from design, planning to installing and maintenance | จัดสวน ดีไซน์ ปลูกต้นไม้ ดูแล",
-        "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-106058419-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-106058419-6');\n</script>",
+        "header_custom": "",
         "footer_custom": "",
-        "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/l%20plus%20fb%20bg-1440x960.jpg"
+        "html_before": ""
       },
       "components": [
         {
@@ -1237,9 +1234,7 @@
       "settings": {
         "meta_descr": "L-Plus | Full Service Landscaping - from design, planning to installing and maintenance | จัดสวน ดีไซน์ ปลูกต้นไม้ ดูแล | Gallery ผลงาน",
         "title": "L Plus | Gallery ผลงานการจัดสวน",
-        "order": 1,
-        "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-106058419-6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-106058419-6');\n</script>",
-        "meta_image": "@PROJECT_PATH@/assets/images/l%20plus%20fb%20bg-1440x960.jpg"
+        "order": 1
       },
       "components": [
         {
