@@ -2038,7 +2038,7 @@ section.lazy-placeholder:after {
 .cid-rOBDspzIVG {
   padding-top: 45px;
   padding-bottom: 30px;
-  background-color: #232323;
+  background-color: #ffffff;
 }
 .cid-rOBDspzIVG .item {
   padding-bottom: 2rem;
@@ -2229,43 +2229,43 @@ section.lazy-placeholder:after {
 .cid-rOBDspzIVG H4 {
   color: #efefef;
 }
-.cid-rOE6h8mG6H {
+.cid-rOE8QKaGV2 {
   padding-top: 60px;
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
 @media (max-width: 767px) {
-  .cid-rOE6h8mG6H .content {
+  .cid-rOE8QKaGV2 .content {
     text-align: center;
   }
-  .cid-rOE6h8mG6H .content > div:not(:last-child) {
+  .cid-rOE8QKaGV2 .content > div:not(:last-child) {
     margin-bottom: 2rem;
   }
 }
 @media (max-width: 767px) {
-  .cid-rOE6h8mG6H .media-wrap {
+  .cid-rOE8QKaGV2 .media-wrap {
     margin-bottom: 1rem;
   }
 }
-.cid-rOE6h8mG6H .media-wrap .mbr-iconfont-logo {
+.cid-rOE8QKaGV2 .media-wrap .mbr-iconfont-logo {
   font-size: 7.5rem;
   color: #f36;
 }
-.cid-rOE6h8mG6H .media-wrap img {
+.cid-rOE8QKaGV2 .media-wrap img {
   height: 6rem;
 }
 @media (max-width: 767px) {
-  .cid-rOE6h8mG6H .footer-lower .copyright {
+  .cid-rOE8QKaGV2 .footer-lower .copyright {
     margin-bottom: 1rem;
     text-align: center;
   }
 }
-.cid-rOE6h8mG6H .footer-lower hr {
+.cid-rOE8QKaGV2 .footer-lower hr {
   margin: 1rem 0;
   border-color: #fff;
   opacity: .05;
 }
-.cid-rOE6h8mG6H .footer-lower .social-list {
+.cid-rOE8QKaGV2 .footer-lower .social-list {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -2275,24 +2275,24 @@ section.lazy-placeholder:after {
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
 }
-.cid-rOE6h8mG6H .footer-lower .social-list .mbr-iconfont-social {
+.cid-rOE8QKaGV2 .footer-lower .social-list .mbr-iconfont-social {
   font-size: 1.3rem;
   color: #fff;
 }
-.cid-rOE6h8mG6H .footer-lower .social-list .soc-item {
+.cid-rOE8QKaGV2 .footer-lower .social-list .soc-item {
   margin: 0 .5rem;
 }
-.cid-rOE6h8mG6H .footer-lower .social-list a {
+.cid-rOE8QKaGV2 .footer-lower .social-list a {
   margin: 0;
   opacity: .5;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
-.cid-rOE6h8mG6H .footer-lower .social-list a:hover {
+.cid-rOE8QKaGV2 .footer-lower .social-list a:hover {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .cid-rOE6h8mG6H .footer-lower .social-list {
+  .cid-rOE8QKaGV2 .footer-lower .social-list {
     -webkit-justify-content: center;
     justify-content: center;
   }
