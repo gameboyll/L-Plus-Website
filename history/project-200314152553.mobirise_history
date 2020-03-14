@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "L-Plus",
-    "currentPage": "index.html",
+    "currentPage": "gallery-la_villa_posh_ayutthaya_houses.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,7 @@
         "url": "https://fonts.googleapis.com/css?family=Varela+Round:400"
       }
     ],
-    "uniqCompNum": 47,
+    "uniqCompNum": 45,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -494,7 +494,7 @@
             }
           },
           "_name": "gallery5",
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\" checked=\"\">\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            <a href=\"gallery.html\" class=\"text-danger\">Gallery</a>\n        </h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            ตัวอย่างงานที่เราทำ</h4>\n        <!--<div class=\"row mbr-gallery\" data-toggle=\"modal\" data-target=\"#{{idGallery}}Modal\">-->\n      \t<div class=\"row mbr-gallery\">\n          \t<div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/UYr68pYS32rdbCbJ6\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/hktwi-exterior-0425-hor-clsc-1280x720-800x450.jpg\" alt=\"The Westin Siray Bay Resort &amp; Spa\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" title=\"The Westin Siray Bay Resort &amp; Spa, Phuket\"></a>\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/HNFifUmyayvUivRr8\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/avani-khon-kaen-property-teaser-800x389-2.webp\" alt=\"Avani Khon Kaen\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\" title=\"Avani Khon Kaen\"></a>\n                </div>\n            </div>\n            \n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"gallery-legend_siam_pattaya.html\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/legend-siam-pattaya-avengo-2-510x340.jpg\" alt=\"Legend Siam\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\" title=\"Legend Siam, Pattaya\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/oyH6TS4NULiRqYMx9\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/perspective-clubhouse-01-1-510x263.jpg\" alt=\"Serio\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"4\" title=\"Serio Sukhumvit 50\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/nCD1TPJ1e5a9rnWg9\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/lala-mukha-tented-resort-khao-yai-sensasian-concept-thailand-chiang-mai-510x383.jpg\" alt=\"Lala Mukha\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"5\" title=\"Lala Mukha, Khao Yai\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/Bwfo8UpSCKDVTdGh8\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/002-387x290.jpg\" alt=\"Lou Poon Pon Rice Mill\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"6\" title=\"Lou Poon Pon Rice Mill, Nakhon Sawan\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/RwpTxbqCtBZWFdQV9\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/88204c924c8d8af38c810030a0906e15-387x258.jpg\" alt=\"Chanalai Romantica Resort\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"7\" title=\"Chanalai Romantica Resort, Phuket\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/XutSZixgnM1aVJ7Y8\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/42ccdefe08a86b316e69a0bee0e353f7-510x338.jpg\" alt=\"Woraburi - The Ritz\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"8\" title=\"Woraburi - The Ritz, Pattaya\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/MPpxz1RRk1KaunW88\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/images-261x193.jpg\" alt=\"Woraburi - The Ritz\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"8\" title=\"Woraburi - The Ritz, Pattaya\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/uCsjtZSPKPKgYxho9\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/vqsp8dwhxs2tl6hgttjx-510x339.jpg\" alt=\"Hua Hin Horizon\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"9\" title=\"Hua Hin Horizon\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/EAnWnBxE2txf24DT7\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/4776-20190327064955-510x680.jpeg\" alt=\"Holiday Inn Express\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"10\" title=\"Holiday Inn Express Siam\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/TkALcHM6sPWSqF2BA\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/58922551-2485583651460122-6742949134023524352-n-510x382.jpeg\" alt=\"St. Mary's School\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"11\" title=\"St. Mary's School Sathorn\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/WiUpQywLW5vJmcRw8\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/78183580-1726349680830966-5283781025099415552-n-510x383.jpg\" alt=\"27 Resort\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"12\" title=\"27 Resort, Suphan Buri\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/67dSdwYDF6TMh5446\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/1374740315814-510x383.jpg\" alt=\"Kluaynamthai Hospital\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"13\" title=\"Kluaynamthai Hospital\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/dgvoWe9NRYfVYskh7\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200224-120701-510x517.jpeg\" alt=\"La Villa Posh, Ayutthaya\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"10\" title=\"La Villa Posh, Ayutthaya\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/Z2RsnnmVgEw9Hdrt7\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/85-big-510x383.jpg\" alt=\"Mission Hospital\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"14\" title=\"Mission Hospital, Phuket\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/3TJxLzorXByHANop8\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/560258-254857001272275-267413323-n-254857001272275-510x339.jpg\" alt=\"Onnut Factory\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"15\" title=\"Onnut Factory\"></a>\n                </div>\n            </div>\n        </div>\n\n        <!--<div class=\"modal mbr-slider fade\" id=\"{{idGallery}}Modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" data-ride=\"carousel\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/perspective-clubhouse-01-1-510x263.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/lala-mukha-tented-resort-khao-yai-sensasian-concept-thailand-chiang-mai-510x383.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/002-387x290.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/88204c924c8d8af38c810030a0906e15-387x258.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/42ccdefe08a86b316e69a0bee0e353f7-510x338.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/vqsp8dwhxs2tl6hgttjx-510x339.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/4776-20190327064955-510x680.jpeg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/58922551-2485583651460122-6742949134023524352-n-510x382.jpeg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/78183580-1726349680830966-5283781025099415552-n-510x383.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1374740315814-510x383.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/85-big-510x383.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/544590-254857737938868-220770641-n-254857737938868-510x339.jpg\" alt>\n                                </div>\n                            </div>\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"4\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"5\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"6\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"7\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"8\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"9\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"10\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"11\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"12\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"13\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"14\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"15\"></li>\n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>-->\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\" checked>\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            <a href=\"gallery.html\" class=\"text-danger\">Gallery</a>\n        </h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            ตัวอย่างงานที่เราทำ</h4>\n        <!--<div class=\"row mbr-gallery\" data-toggle=\"modal\" data-target=\"#{{idGallery}}Modal\">-->\n      \t<div class=\"row mbr-gallery\">\n          \t<div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/Z2RsnnmVgEw9Hdrt7\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/85-big-510x383.jpg\" alt=\"Mission Hospital\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"14\" title=\"Mission Hospital, Phuket\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/UYr68pYS32rdbCbJ6\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/hktwi-exterior-0425-hor-clsc-1280x720-800x450.jpg\" alt=\"The Westin Siray Bay Resort & Spa\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" title=\"The Westin Siray Bay Resort & Spa, Phuket\"></a>\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/HNFifUmyayvUivRr8\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/avani-khon-kaen-property-teaser-800x389-2.webp\" alt=\"Avani Khon Kaen\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\" title=\"Avani Khon Kaen\"></a>\n                </div>\n            </div>\n            \n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"gallery-legend_siam_pattaya.html\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/legend-siam-pattaya-avengo-2-510x340.jpg\" alt=\"Legend Siam\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\" title=\"Legend Siam, Pattaya\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/oyH6TS4NULiRqYMx9\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/perspective-clubhouse-01-1-510x263.jpg\" alt=\"Serio\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"4\" title=\"Serio Sukhumvit 50\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/nCD1TPJ1e5a9rnWg9\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/lala-mukha-tented-resort-khao-yai-sensasian-concept-thailand-chiang-mai-510x383.jpg\" alt=\"Lala Mukha\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"5\" title=\"Lala Mukha, Khao Yai\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/Bwfo8UpSCKDVTdGh8\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/002-387x290.jpg\" alt=\"Lou Poon Pon Rice Mill\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"6\" title=\"Lou Poon Pon Rice Mill, Nakhon Sawan\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/RwpTxbqCtBZWFdQV9\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/88204c924c8d8af38c810030a0906e15-387x258.jpg\" alt=\"Chanalai Romantica Resort\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"7\" title=\"Chanalai Romantica Resort, Phuket\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/XutSZixgnM1aVJ7Y8\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/42ccdefe08a86b316e69a0bee0e353f7-510x338.jpg\" alt=\"Woraburi - The Ritz\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"8\" title=\"Woraburi - The Ritz, Pattaya\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/MPpxz1RRk1KaunW88\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/images-261x193.jpg\" alt=\"Woraburi - The Ritz\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"8\" title=\"Woraburi - The Ritz, Pattaya\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/uCsjtZSPKPKgYxho9\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/vqsp8dwhxs2tl6hgttjx-510x339.jpg\" alt=\"Hua Hin Horizon\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"9\" title=\"Hua Hin Horizon\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/EAnWnBxE2txf24DT7\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/4776-20190327064955-510x680.jpeg\" alt=\"Holiday Inn Express\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"10\" title=\"Holiday Inn Express Siam\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/TkALcHM6sPWSqF2BA\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/58922551-2485583651460122-6742949134023524352-n-510x382.jpeg\" alt=\"St. Mary's School\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"11\" title=\"St. Mary's School Sathorn\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/WiUpQywLW5vJmcRw8\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/78183580-1726349680830966-5283781025099415552-n-510x383.jpg\" alt=\"27 Resort\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"12\" title=\"27 Resort, Suphan Buri\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/67dSdwYDF6TMh5446\" target=\"_blank\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/1374740315814-510x383.jpg\" alt=\"Kluaynamthai Hospital\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"13\" title=\"Kluaynamthai Hospital\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/dgvoWe9NRYfVYskh7\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200224-120701-510x517.jpeg\" alt=\"La Villa Posh, Ayutthaya\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"10\" title=\"La Villa Posh, Ayutthaya\"></a>\n                </div>\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <a href=\"https://photos.app.goo.gl/3TJxLzorXByHANop8\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/560258-254857001272275-267413323-n-254857001272275-510x339.jpg\" alt=\"Onnut Factory\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"15\" title=\"Onnut Factory\"></a>\n                </div>\n            </div>\n        </div>\n\n        <!--<div class=\"modal mbr-slider fade\" id=\"{{idGallery}}Modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" data-ride=\"carousel\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/perspective-clubhouse-01-1-510x263.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/lala-mukha-tented-resort-khao-yai-sensasian-concept-thailand-chiang-mai-510x383.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/002-387x290.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/88204c924c8d8af38c810030a0906e15-387x258.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/42ccdefe08a86b316e69a0bee0e353f7-510x338.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/vqsp8dwhxs2tl6hgttjx-510x339.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/4776-20190327064955-510x680.jpeg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/58922551-2485583651460122-6742949134023524352-n-510x382.jpeg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/78183580-1726349680830966-5283781025099415552-n-510x383.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1374740315814-510x383.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/85-big-510x383.jpg\" alt>\n                                </div><div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/544590-254857737938868-220770641-n-254857737938868-510x339.jpg\" alt>\n                                </div>\n                            </div>\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"4\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"5\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"6\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"7\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"8\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"9\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"10\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"11\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"12\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"13\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"14\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"15\"></li>\n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>-->\n    </div>\n</section>",
           "_cid": "rOi2dPyl4q",
           "_anchor": "gallery-summary",
           "_PHPplaceholders": [],
@@ -1186,7 +1186,7 @@
             }
           },
           "_name": "services3",
-          "_customHTML": "<section class=\"services3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title Cards\" name=\"showTitleCards\" checked>\n        <input type=\"checkbox\" title=\"Show Text Cards\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Color Border\" name=\"colorBorder\" value=\"#efefef\">\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\">11</option>\n            <option value=\"12\" selected>12</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row\" mbr-cards=\"bootstrap\">\n            <!--Titles-->\n            <div class=\"title pb-5 col-12\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Presentations</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 m-0\" mbr-theme-style=\"display-5\">สไลด์โชว์ผลงาน</h3>\n            </div>\n            <!--Card-1-->\n            <div class=\"card px-3 col-12 col-md-6\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-1\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                The Westin Siray Bay Resort</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\"><a href=\"https://drive.google.com/open?id=1yUyDJo-ERuMwbQYDxLqWZG3OgAAl_f1YjlKFO-Osf2c\" target=\"_blank\">Link</a></p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Phuket</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-2-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><a href=\"gallery-legend_siam_pattaya.html\">Nusasiri - Legend Siam</a></h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1TYUQx7WvGJbAtbKGbZZS-blcGtLxqFeWK2epFs9Qjcs\" target=\"_blank\">Link</a></p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Pattaya</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-3-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Avani Khon Kaen</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1s83NthhKljTH1N3CqB-CkCWhzfCb647ZkH6csyUouUQ\" target=\"_blank\">Link</a>\n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Khon Kaen\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-4-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Chanalai Hotel</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1pLSZrXmFjLS1ujemWCtb4DRDRvy1oZhIT1__OkrQ5Hs\" target=\"_blank\">Link</a>\n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Phuket</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-5-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Serio Sukhumvit 50</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1kWtz78CDR2lMi1eMN-cd7kjXF8TEbZEUVOc_HwjvU9w\" target=\"_blank\">Link</a>\n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Bangkok</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-6-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Lou Poon Pon (โรงสีล้อพูนผล)</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1IWcvUSL2UqQ7-hyqz0voaVubuVEWxjsQ-BSkQifkaWE\" target=\"_blank\">Link</a>\n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Nakorn Sawan<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-7-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 6\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Lala Mukha</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1iK0W1UbVTBrdhBc_scjW_e7D9mOyyrhiaPjWGBz0CLc\" target=\"_blank\">Link</a>                             \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Nakhon Ratchasima\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-8-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 7\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Pico Thailand</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1QSipLeTgdiCiULJ9XJCQir4rd2K-7g9DSbLeJvNXISM\" target=\"_blank\">Link</a>                             \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Bangkok</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-9-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 8\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Holiday Inn Siam</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1IEShHRHpgRAiCs45Pnkgb8qtkNug9M0D6biX9WAAbK8\" target=\"_blank\">Link</a>                                                          \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Bangkok</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-10-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 9\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Woraburi - The Ritz</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1YTlEGtaErY6TdkCG-6oiawlVWCMAcr6zw1R8nig4aOA\" target=\"_blank\">Link</a>                                                          \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Pattaya</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-11-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 10\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">Hua Hin Horizon</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1CQs3ifplfFuMkjq0vGHQV78-DaHrAMGBeE2B5iDHUAI\" target=\"_blank\">Link</a>                                                          \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Prachuap Khiri Khan\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-12-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 11\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                <a href=\"gallery-la_villa_posh_ayutthaya_houses.html\">La Villa Posh</a></h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1Is5BDQ6jXj0ihovAjlPy7mkbbGfPdDpEpl-NH6hulMQ\" target=\"_blank\">Link</a>                                                          \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Ayutthaya</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"services3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title Cards\" name=\"showTitleCards\" checked>\n        <input type=\"checkbox\" title=\"Show Text Cards\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Color Border\" name=\"colorBorder\" value=\"#efefef\">\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\">11</option>\n            <option value=\"12\" selected>12</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row\" mbr-cards=\"bootstrap\">\n            <!--Titles-->\n            <div class=\"title pb-5 col-12\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Presentations</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 m-0\" mbr-theme-style=\"display-5\">สไลด์โชว์ผลงาน</h3>\n            </div>\n            <!--Card-1-->\n            <div class=\"card px-3 col-12 col-md-6\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-1\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                The Westin Siray Bay Resort</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\"><a href=\"https://drive.google.com/open?id=1yUyDJo-ERuMwbQYDxLqWZG3OgAAl_f1YjlKFO-Osf2c\" target=\"_blank\">Link</a></p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Phuket</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-2-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">Nusasiri - Legend Siam</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1TYUQx7WvGJbAtbKGbZZS-blcGtLxqFeWK2epFs9Qjcs\" target=\"_blank\">Link</a></p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Pattaya</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-3-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Avani Khon Kaen</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1s83NthhKljTH1N3CqB-CkCWhzfCb647ZkH6csyUouUQ\" target=\"_blank\">Link</a>\n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Khon Kaen\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-4-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Chanalai Hotel</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1pLSZrXmFjLS1ujemWCtb4DRDRvy1oZhIT1__OkrQ5Hs\" target=\"_blank\">Link</a>\n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Phuket</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-5-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Serio Sukhumvit 50</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1kWtz78CDR2lMi1eMN-cd7kjXF8TEbZEUVOc_HwjvU9w\" target=\"_blank\">Link</a>\n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Bangkok</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-6-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Lou Poon Pon (โรงสีล้อพูนผล)</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1IWcvUSL2UqQ7-hyqz0voaVubuVEWxjsQ-BSkQifkaWE\" target=\"_blank\">Link</a>\n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Nakorn Sawan<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-7-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 6\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Lala Mukha</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1iK0W1UbVTBrdhBc_scjW_e7D9mOyyrhiaPjWGBz0CLc\" target=\"_blank\">Link</a>                             \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Nakhon Ratchasima\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-8-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 7\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Pico Thailand</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1QSipLeTgdiCiULJ9XJCQir4rd2K-7g9DSbLeJvNXISM\" target=\"_blank\">Link</a>                             \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Bangkok</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-9-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 8\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Holiday Inn Siam</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1IEShHRHpgRAiCs45Pnkgb8qtkNug9M0D6biX9WAAbK8\" target=\"_blank\">Link</a>                                                          \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Bangkok</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-10-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 9\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                Woraburi - The Ritz</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1YTlEGtaErY6TdkCG-6oiawlVWCMAcr6zw1R8nig4aOA\" target=\"_blank\">Link</a>                                                          \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Pattaya</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-11-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 10\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">Hua Hin Horizon</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1CQs3ifplfFuMkjq0vGHQV78-DaHrAMGBeE2B5iDHUAI\" target=\"_blank\">Link</a>                                                          \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Prachuap Khiri Khan\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-12-->\n            <div class=\"card px-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 11\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"top-line pb-3\" mbr-if=\"showTitleCards\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">\n                                La Villa Posh</h4>\n                            <p class=\"mbr-text card-title cost mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                                <a href=\"https://drive.google.com/open?id=1Is5BDQ6jXj0ihovAjlPy7mkbbGfPdDpEpl-NH6hulMQ\" target=\"_blank\">Link</a>                                                          \n                            </p>\n                        </div>\n                        <div class=\"bottom-line\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                Ayutthaya</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rT1aOf2hqR",
           "_anchor": "services3-16",
           "_PHPplaceholders": [],
@@ -3398,7 +3398,7 @@
             }
           },
           "_name": "info2",
-          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffa957\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#396cb7\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://drive.google.com/open?id=1TYUQx7WvGJbAtbKGbZZS-blcGtLxqFeWK2epFs9Qjcs\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-slideshare mbr-iconfont mbr-iconfont-btn\"></span>\n                    VIEW SLIDES</a> <a class=\"btn btn-primary\" href=\"https://photos.app.goo.gl/UBjhdjw8GvH51yoS9\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    <span class=\"mbri-preview mbr-iconfont\"></span>\n                    SEE MORE\n                    </a>&nbsp;&nbsp;&nbsp;&nbsp;</div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    View More Images</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    See all images of progress and results</h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffa957\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#396cb7\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://photos.app.goo.gl/UBjhdjw8GvH51yoS9\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    <span class=\"mbri-preview mbr-iconfont\"></span>\n                    SEE MORE\n                    </a></div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    View More Images</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    See all images of progress and results</h3>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rSkFdKESLG",
           "_anchor": "info2-x",
           "_protectedParams": [],
@@ -3939,8 +3939,8 @@
           },
           "_name": "gallery3",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n    </div>\n\n</section>",
-          "_cid": "rTceQbXKXy",
-          "_anchor": "gallery3-1a",
+          "_cid": "rSQFiTWkLr",
+          "_anchor": "gallery3-14",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -3955,7 +3955,7 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3968,7 +3968,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3981,7 +3981,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Creative",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4007,7 +4007,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4020,7 +4020,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4033,7 +4033,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4050,6 +4050,19 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-104428-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-104428-2000x917-800x367.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img_20200224-104549-2000x917.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-20200224-104549-2000x917-800x367.jpg",
                 "alt": "",
@@ -4059,7 +4072,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4069,15 +4082,15 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-105417-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-105417-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-105417-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-105417-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4085,7 +4098,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4098,7 +4111,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4111,7 +4124,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4124,12 +4137,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-115904-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-115904-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-115904-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-115904-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4137,12 +4150,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-115913-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-115913-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-115913-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-115913-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4150,12 +4163,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-120337-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120337-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-120337-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120337-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4163,12 +4176,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-120347-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120347-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-120347-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120347-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4176,12 +4189,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-120353-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120353-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-120353-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120353-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4189,12 +4202,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-120404-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120404-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-120404-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120404-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4202,12 +4215,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-120453-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120453-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-120453-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120453-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4215,12 +4228,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-120532-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120532-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-120532-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120532-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4228,12 +4241,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-120605-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120605-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-120605-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120605-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4241,12 +4254,25 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-120706-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120706-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-120706-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-120706-2000x917-800x367.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-121953-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-121953-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4254,12 +4280,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-121953-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-121953-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-170255-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170255-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4267,20 +4293,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-170255-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170255-2000x4364-800x1746.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4293,12 +4306,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-170621-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170621-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-170621-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170621-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4306,12 +4319,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-170814-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170814-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-170814-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170814-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4319,12 +4332,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-170850-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170850-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-170850-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170850-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4332,12 +4345,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-170904-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170904-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-170904-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170904-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4345,7 +4358,7 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -4358,12 +4371,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200224-170941-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170941-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200224-170941-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200224-170941-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4371,12 +4384,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200309-92625-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200309-92625-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200309-92625-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200309-92625-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4384,12 +4397,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200309-92630-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200309-92630-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200309-92630-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200309-92630-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4397,12 +4410,12 @@
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img_20200309-92821-2000x4364.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20200309-92821-2000x4364-800x1746.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img_20200309-92821-2000x917.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20200309-92821-2000x917-800x367.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4437,7 +4450,7 @@
             }
           },
           "_name": "info2",
-          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffa957\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#396cb7\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://drive.google.com/open?id=1Is5BDQ6jXj0ihovAjlPy7mkbbGfPdDpEpl-NH6hulMQ\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fab fa-slideshare mbr-iconfont mbr-iconfont-btn\"></span>\n                    VIEW SLIDES</a> <a class=\"btn btn-primary\" href=\"https://photos.app.goo.gl/dgvoWe9NRYfVYskh7\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    <span class=\"mbri-preview mbr-iconfont\"></span>\n                    SEE MORE\n                    </a></div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    View More Details</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    See slide show and all images of progress &amp; results</h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffa957\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#396cb7\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://photos.app.goo.gl/UBjhdjw8GvH51yoS9\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fab fa-slideshare mbr-iconfont mbr-iconfont-btn\"></span>\n                    VIEW SLIDES</a> <a class=\"btn btn-primary\" href=\"https://photos.app.goo.gl/UBjhdjw8GvH51yoS9\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    <span class=\"mbri-preview mbr-iconfont\"></span>\n                    SEE MORE\n                    </a></div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    View More Details</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    See slide show and all images of progress &amp; results</h3>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rSQEeioFme",
           "_anchor": "info2-12",
           "_protectedParams": [],
