@@ -1,6 +1,13 @@
 function witsecSendMail(obj) {
+    event.preventDefault();
+
     var frm = $(obj);
 
+    // Disable submit button, if needed
+    if (frm.find("input[name=disableButton]").val() == "1")
+        frm.find("button[type=submit]").attr("disabled", true);
+
+    // Check if a reCAPTCHA site key is defined
     if (typeof witsecRcpSitekey !== 'undefined') {
         grecaptcha.ready(function() {
             grecaptcha.execute(witsecRcpSitekey, {action: "homepage"}).then(function(token) {
@@ -15,6 +22,9 @@ function witsecSendMail(obj) {
 }
 
 function witsecSendMailAjax(frm) {
+    frm.attr("action", "assets/witsec-mailform/mail.php");
+    frm.attr("method", "POST");
+
     $.ajax({
         type: frm.attr("method"),
         url: frm.attr("action"),
@@ -28,10 +38,16 @@ function witsecSendMailAjax(frm) {
                 frm.find("div .alert-success").attr("hidden", "hidden");
                 frm.find("div .alert-danger").removeAttr("hidden");
             }
+
+            // Enable submit button
+            frm.find("button[type=submit]").attr("disabled", false);
         },
         error: function (data) {
             frm.find("div .alert-success").attr("hidden", "hidden");
             frm.find("div .alert-danger").removeAttr("hidden");
+
+            // Enable submit button
+            frm.find("button[type=submit]").attr("disabled", false);
         },
     });
 }
